@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5633" started-at="2022-07-29T08:32:47 EDT" finished-at="2022-07-29T08:32:53 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5633" started-at="2022-07-29T08:32:47 EDT" finished-at="2022-07-29T08:32:53 EDT">
+      <class name="com.amfam.qa.test.auto.AutoClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amfam.qa.test.auto.AutoClass@26a7b76d]" name="setUp" is-config="true" duration-ms="5320" started-at="2022-07-29T08:32:47 EDT" finished-at="2022-07-29T08:32:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAutoQuote()[pri:0, instance:com.amfam.qa.test.auto.AutoClass@26a7b76d]" name="getAutoQuote" duration-ms="4" started-at="2022-07-29T08:32:52 EDT" finished-at="2022-07-29T08:32:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAutoQuote -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.amfam.qa.test.auto.AutoClass@26a7b76d]" name="terminate" is-config="true" duration-ms="249" started-at="2022-07-29T08:32:52 EDT" finished-at="2022-07-29T08:32:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.amfam.qa.test.auto.AutoClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
