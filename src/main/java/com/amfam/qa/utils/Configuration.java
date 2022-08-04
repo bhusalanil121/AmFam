@@ -8,10 +8,9 @@ import java.util.Properties;
 public class Configuration {
 	private Properties properties;
 	private String defaultPath = "configuration/config.properties";
-	
 
 	public Configuration(String path) {
-		if (path == null || path.length()<11) {
+		if (path == null || path.length() < 11) {
 			loadProperty(defaultPath);
 		} else {
 			loadProperty(path);
@@ -29,7 +28,14 @@ public class Configuration {
 	}
 
 	public String getConfiguration(String key) {
-		return properties.getProperty(key);
+		if (key != null) {
+			return properties.getProperty(key);
+		}
+
+		else {
+			return null;
+
+		}
 	}
 
 }

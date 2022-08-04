@@ -1,2 +1,4 @@
-com/amfam/qa/base/BaseClass.class
+com/amfam/qa/common/Commons.class
+com/amfam/qa/objects/HomePage.class
 com/amfam/qa/utils/Configuration.class
+com/amfam/qa/base/BaseClass.class
